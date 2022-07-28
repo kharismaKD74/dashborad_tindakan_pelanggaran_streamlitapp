@@ -27,7 +27,7 @@ Wilayah = st.sidebar.multiselect(
 
 df_selection = df.query("wilayah == @Wilayah")
 
-st.title(":bar_chart: Dashboard Penindakan Pelanggaran LANTAS Juli 2021")
+st.title(":bar_chart: Dashboard Penindakan Pelanggaran LANTAS Bulan Juli Tahun 2021")
 st.markdown("##")
 
 # TOP KPI's
